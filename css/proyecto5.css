@@ -1,0 +1,141 @@
+
+body{  font-family: 'MuseoModerno', cursive;
+background-color: black;
+ }
+
+
+h1{ color:#EEB2FB; 
+font-size: 3em;}
+
+h2, .nombre h1{ font-family: 'Lobster', cursive; 
+text-align: right;
+margin: 40px;}
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 50px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+li{list-style: none;}
+ 
+	.social ul {
+		list-style: none;
+		text-align: center;
+
+
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:black;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .trabajos {background:#EEB2FB;  border-style: groove;
+
+		height: 50px;
+		width: 150px;} 
+    .social ul li img{ height: 180px;
+		width: 180px; 
+	  border-style: groove;}
+
+		/* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .cursos {background: #EEB2FB; height: 50px;
+		  border-style: groove;
+		width: 150px}
+	.social ul li .certificaciones {background: #EEB2FB;height: 50px;
+		  border-style: groove;
+		width: 150px}
+	.social ul li .con {background: #EEB2FB;
+	height: 50px;
+	  border-style: groove;
+		width: 150px}
+	.social ul li .repre {background: #EEB2FB;
+		  border-style: groove;
+		height: 50px;
+		width: 150px}
+ 
+	.social ul li a:hover {
+		background: #E4FBB2; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+	.trespartes { display: grid;
+grid-template-columns: 15em 34em 34em; 
+ grid-template-rows: 	auto;
+ text-align: center;
+ 
+ margin-top:2em;
+ }
+
+
+ .uno{background-color: black;
+}
+
+ 	.dos {background-color: #FBEEB2;
+
+ 	}
+ 	.tres{background-color: #FBEEB2;}
+
+ 	.dos h2, .tres h2 {text-align: center;}
+
+ 	li img{ height: 14em;
+ 	widows: 14em; }
+ 	 li img:hover {
+		background: #FBCAB2; 
+	/* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: ; 
+		height: 15em;
+		width: 15em;
+		/* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+	.dospartes{  display: grid;
+grid-template-columns:  15em 68em; 
+ grid-template-rows: 	auto;
+ text-align: none;
+ 
+ margin-top:10px}
+
+ .cuatro{
+ 	background-color: #FBCAB2;
+
+ }
+ .cuatro h2 {text-align: center;}
+ .cuatro li h3 {text-decoration: underline;}
+ li p{
+ 	text-align: justify;
+ }
+ .cinco { background-color: #E4FBB2; }
+ 
+.cinco h2{ text-align: center; }
+.cinco img {border-radius: 50%}
+.cinco p {font-family: museo-moderno;}
+
+.seis{background-color: #FBB2BF;}
+.seis h2{ text-align: center; }
+
+i
+.seis td tr a img { width: 10em;
+	height: 10em;
+ }
+
+
+
+ .imgmenor{height: 3em;
+ 	width: 3em;}
+ 	.seis td tr a img .imgmenor: hover{height: 4em;
+ 	width: 4em}
+
+ ..footer img { width: 40px;
+ height: 40px;
+ background-color: black;
+ border-radius: 20px;}
+ .imgfooter{ height: 4em;
+ 	width: 4em; border-radius: 50%;}
+
+ 	table tr td p;{text-align: center;}
